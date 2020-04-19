@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30011.22
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCILibrary", "CTCILibrary\CTCILibrary.csproj", "{09460CBC-8403-467C-A30A-F73F59DEE3AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CTCIConsole", "CTCIConsole\CTCIConsole.csproj", "{96FDA721-584A-4F14-8749-0E5B9F339036}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{09460CBC-8403-467C-A30A-F73F59DEE3AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09460CBC-8403-467C-A30A-F73F59DEE3AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09460CBC-8403-467C-A30A-F73F59DEE3AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09460CBC-8403-467C-A30A-F73F59DEE3AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FDA721-584A-4F14-8749-0E5B9F339036}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FDA721-584A-4F14-8749-0E5B9F339036}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FDA721-584A-4F14-8749-0E5B9F339036}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FDA721-584A-4F14-8749-0E5B9F339036}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4FC48F52-5C45-4651-B0DF-AD7FEB1C0863}
+	EndGlobalSection
+EndGlobal
