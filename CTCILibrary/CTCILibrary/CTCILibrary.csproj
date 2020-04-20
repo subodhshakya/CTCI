@@ -4,4 +4,17 @@
     <TargetFramework>netstandard2.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="03StackAndQueues\" />
+    <Folder Include="04TreesAndGraphs\" />
+    <Folder Include="05BitManipulation\" />
+    <Folder Include="06MathAndLogicPuzzles\" />
+    <Folder Include="07ObjectOrientedDesign\" />
+    <Folder Include="08RecursionAndDynamicProgramming\" />
+    <Folder Include="09SystemDesignAndScalability\" />
+    <Folder Include="10SortingAndSearching\" />
+    <Folder Include="01ArraysAndStrings\" />
+    <Folder Include="02LinkedLists\" />
+  </ItemGroup>
+
 </Project>

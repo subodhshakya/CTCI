@@ -1,0 +1,9 @@
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\bin\Debug\netstandard2.0\CTCILibrary.deps.json
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\bin\Debug\netstandard2.0\CTCILibrary.dll
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\bin\Debug\netstandard2.0\CTCILibrary.pdb
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\obj\Debug\netstandard2.0\CTCILibrary.csprojAssemblyReference.cache
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\obj\Debug\netstandard2.0\CTCILibrary.csproj.CoreCompileInputs.cache
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\obj\Debug\netstandard2.0\CTCILibrary.AssemblyInfoInputs.cache
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\obj\Debug\netstandard2.0\CTCILibrary.AssemblyInfo.cs
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\obj\Debug\netstandard2.0\CTCILibrary.dll
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCILibrary\obj\Debug\netstandard2.0\CTCILibrary.pdb

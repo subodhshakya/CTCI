@@ -1,0 +1,7 @@
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\bin\Debug\CTCIConsole.exe.config
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\bin\Debug\CTCIConsole.exe
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\bin\Debug\CTCIConsole.pdb
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.csprojAssemblyReference.cache
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.csproj.CoreCompileInputs.cache
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.exe
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.pdb
