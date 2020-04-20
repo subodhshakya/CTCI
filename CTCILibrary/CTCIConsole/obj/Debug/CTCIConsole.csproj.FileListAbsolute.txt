@@ -5,3 +5,6 @@ C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.c
 C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.csproj.CoreCompileInputs.cache
 C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.exe
 C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.pdb
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\bin\Debug\CTCILibrary.dll
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\bin\Debug\CTCILibrary.pdb
+C:\Users\subod\source\repos\CTCI\CTCILibrary\CTCIConsole\obj\Debug\CTCIConsole.csproj.CopyComplete

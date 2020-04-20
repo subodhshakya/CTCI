@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CTCILibrary\CTCILibrary.csproj">
+      <Project>{09460cbc-8403-467c-a30a-f73f59dee3ae}</Project>
+      <Name>CTCILibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
