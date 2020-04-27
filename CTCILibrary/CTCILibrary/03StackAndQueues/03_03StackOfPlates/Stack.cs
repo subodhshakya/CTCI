@@ -51,6 +51,15 @@ namespace CTCILibrary._03StackAndQueues._03_03StackOfPlates
             }            
         }
 
+        public int Peek()
+        {
+            if (!IsEmpty())
+            {
+                return top.data;
+            }
+            throw new Exception("Stack is empty!");
+        }
+
         public bool IsFull()
         {
             return currentItemCount >= capacity;
