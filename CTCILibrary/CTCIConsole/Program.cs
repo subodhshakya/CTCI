@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary._03StackAndQueues._03_06AnimalShelter.Client client = new CTCILibrary._03StackAndQueues._03_06AnimalShelter.Client();
+            CTCILibrary._04TreesAndGraphs.Fundamentals._01_Graph_Implementation.Client client = new CTCILibrary._04TreesAndGraphs.Fundamentals._01_Graph_Implementation.Client();
             client.Run();
         }
     }
