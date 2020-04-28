@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary._04TreesAndGraphs.Fundamentals._01_Graph_Implementation.Client client = new CTCILibrary._04TreesAndGraphs.Fundamentals._01_Graph_Implementation.Client();
+            CTCILibrary._04TreesAndGraphs._04_01RouteBetweenNodes.Client client = new CTCILibrary._04TreesAndGraphs._04_01RouteBetweenNodes.Client();
             client.Run();
         }
     }

@@ -65,5 +65,65 @@ namespace CTCILibrary._04TreesAndGraphs.Fundamentals._01_Graph_Implementation
                 }
             }
         }
+
+        public List<Vertex> GetAdjacent(Vertex v)
+        {
+            int index = GetIndex(v);
+            List<Vertex> adjacentVertices = new List<Vertex>();
+            for (int i = 0; i < NUM_VERTICES; i++)
+            {
+                if (i != index && adjMatrix[index, i] == 1)
+                {
+                    adjacentVertices.Add(this.vertices[i]);
+                }
+            }
+
+            return adjacentVertices;
+        }
+
+        private int GetIndex(Vertex v)
+        {
+            int index = -1;
+            for (int i = 0; i < NUM_VERTICES; i++)
+            {
+                if (v == vertices[i])
+                {
+                    index = i;
+                    break;
+                }
+            }
+
+            return index;
+        }
+
+        public List<Vertex> GetVertices()
+        {
+            List<Vertex> allVertices = new List<Vertex>();
+            for (int i = 0; i < NUM_VERTICES; i++)
+            {
+                if (this.vertices[i] != null)
+                {
+                    allVertices.Add(this.vertices[i]);
+                }
+            };
+
+            return allVertices;
+        }
+
+        public Vertex GetVertex(int index)
+        {
+            return this.vertices[index];
+        }
+
+        public void ResetVisitStatus(bool status)
+        {
+            foreach (Vertex vertex in this.vertices)
+            {
+                if (vertex != null)
+                {
+                    vertex.WasVisited = status;
+                }                
+            }
+        }
     }
 }
