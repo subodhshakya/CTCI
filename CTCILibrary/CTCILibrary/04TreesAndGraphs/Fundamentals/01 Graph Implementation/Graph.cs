@@ -6,7 +6,7 @@ namespace CTCILibrary._04TreesAndGraphs.Fundamentals._01_Graph_Implementation
 {
     public class Graph
     {
-        private const int NUM_VERTICES = 10;
+        private const int NUM_VERTICES = 20;
         private Vertex[] vertices;
         private int[,] adjMatrix;
         private int numVerts;
@@ -40,6 +40,11 @@ namespace CTCILibrary._04TreesAndGraphs.Fundamentals._01_Graph_Implementation
         public void ShowVertex(int v)
         {
             Console.WriteLine(vertices[v].Label + " ");
+        }
+
+        public void ShowVertex(Vertex v)
+        {
+            Console.WriteLine(v.Label + " ");
         }
 
         public void ShowAdjMatrix()
@@ -79,6 +84,24 @@ namespace CTCILibrary._04TreesAndGraphs.Fundamentals._01_Graph_Implementation
             }
 
             return adjacentVertices;
+        }
+
+        public Vertex GetUnvisitedAdjacent(Vertex v)
+        {
+            int index = GetIndex(v);
+            Vertex unvisitedAdjVertex = null;
+
+            List<Vertex> adjacentUnvisitedVertices = new List<Vertex>();
+            for (int i = 0; i < NUM_VERTICES; i++)
+            {
+                if (i != index && adjMatrix[index, i] == 1 && !this.vertices[i].WasVisited)
+                {
+                    unvisitedAdjVertex = this.vertices[i];
+                    break;
+                }
+            }
+
+            return unvisitedAdjVertex;
         }
 
         private int GetIndex(Vertex v)
