@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary._04TreesAndGraphs._04_03ListOfDepths.Client client = new CTCILibrary._04TreesAndGraphs._04_03ListOfDepths.Client();
+            CTCILibrary._04TreesAndGraphs._04_04CheckBalanced.Client client = new CTCILibrary._04TreesAndGraphs._04_04CheckBalanced.Client();
             client.Run();
         }
     }
