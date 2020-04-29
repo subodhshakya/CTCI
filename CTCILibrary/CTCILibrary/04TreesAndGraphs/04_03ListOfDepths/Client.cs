@@ -15,7 +15,9 @@ namespace CTCILibrary._04TreesAndGraphs._04_03ListOfDepths
             TreeNode rootNode = minimalTree.CreateMinimalBST(sortedArray);
 
             ListOfDepths lstOfDepths = new ListOfDepths();
-            List<LinkedList<TreeNode>> listOfLinkedList = lstOfDepths.CreateLevelLinkedList(rootNode);
+            List<LinkedList<TreeNode>> listOfLinkedList = lstOfDepths.CreateLevelLinkedListNonRecursive(rootNode);
+
+            List<LinkedList<TreeNode>> listOfLinkedListRecursive = lstOfDepths.CreateLevelLinkedListRecursive(rootNode);
         }
     }
 }
