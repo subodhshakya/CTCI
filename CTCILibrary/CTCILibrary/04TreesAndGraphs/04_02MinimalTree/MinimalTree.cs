@@ -6,6 +6,9 @@ namespace CTCILibrary._04TreesAndGraphs._04_02MinimalTree
 {
     public class MinimalTree
     {
+        /* Minimal Tree: Given a sorted (increasing order) array with unique integer elements,
+         * write an algorithm to create a binary search tree with minimal height.         
+         */
         public TreeNode CreateMinimalBST(int[] sortedArray)
         {
             return CreateMinimalBST(sortedArray, 0, sortedArray.Length - 1);

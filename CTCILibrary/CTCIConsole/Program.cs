@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary._04TreesAndGraphs._04_02MinimalTree.Client client = new CTCILibrary._04TreesAndGraphs._04_02MinimalTree.Client();
+            CTCILibrary._04TreesAndGraphs._04_03ListOfDepths.Client client = new CTCILibrary._04TreesAndGraphs._04_03ListOfDepths.Client();
             client.Run();
         }
     }
