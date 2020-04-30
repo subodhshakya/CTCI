@@ -21,6 +21,9 @@ namespace CTCILibrary._04TreesAndGraphs._04_05ValidateBST
 
             isBST = validateBST.CheckBSTApproach2(rootNode);
             Console.WriteLine("Is BST using Approach 2:" + isBST);
+
+            isBST = validateBST.CheckBSTApproach3(rootNode);
+            Console.WriteLine("Is BST using Approach 3:" + isBST);
         }
     }
 }
