@@ -26,10 +26,17 @@ namespace CTCILibrary._04TreesAndGraphs._04_05ValidateBST
      * This approach 1 can be implemented if we assume that the tree cannot have duplicate
      * values, then this approach works.
      * 
+     * APPROACH 2:
+     * **********
+     * When we examine this solution, we find that the array is not actually necessary. 
+     * We never use it other than to compare an element to the previous element. So why
+     * no just track the last element we saw and compare it as we go?
+     * 
      */
     public class ValidateBST
     {
         private int index = 0;
+        private int? lastPrinted = null;
 
         #region APPROACH 1: By Copying Tree to array using In-Order traversal approach.
         /// <summary>
@@ -58,6 +65,28 @@ namespace CTCILibrary._04TreesAndGraphs._04_05ValidateBST
             }
 
             return true;
+        }
+        #endregion
+
+        #region APPROACH 2 (Enhancement to previous approach): Keeping track of previous element.
+        public bool CheckBSTApproach2(TreeNode root)
+        {
+            if (root == null) return true;
+
+            // Check / recurse left
+            if (!CheckBSTApproach2(root.Left)) return false;
+
+            // Check current
+            if (lastPrinted.HasValue && root.Data <= lastPrinted)
+            {
+                return false;
+            }
+            lastPrinted = root.Data;
+
+            // Check / recurse right
+            if (!CheckBSTApproach2(root.Right)) return false;
+
+            return true; // All Good!
         }
         #endregion
     }
