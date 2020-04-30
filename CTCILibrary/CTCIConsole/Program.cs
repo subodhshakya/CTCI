@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary._04TreesAndGraphs._04_04CheckBalanced.Client client = new CTCILibrary._04TreesAndGraphs._04_04CheckBalanced.Client();
+            CTCILibrary._04TreesAndGraphs._04_05ValidateBST.Client client = new CTCILibrary._04TreesAndGraphs._04_05ValidateBST.Client();
             client.Run();
         }
     }
