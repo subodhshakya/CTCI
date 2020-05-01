@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary._04TreesAndGraphs._04_06Successor.Client client = new CTCILibrary._04TreesAndGraphs._04_06Successor.Client();
+            CTCILibrary._04TreesAndGraphs._04_07BuildOrder.Client client = new CTCILibrary._04TreesAndGraphs._04_07BuildOrder.Client();
             client.Run();
         }
     }
