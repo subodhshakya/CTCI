@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="04TreesAndGraphs\04_07BuildOrder\Solution02\" />
     <Folder Include="05BitManipulation\" />
     <Folder Include="06MathAndLogicPuzzles\" />
     <Folder Include="07ObjectOrientedDesign\" />
