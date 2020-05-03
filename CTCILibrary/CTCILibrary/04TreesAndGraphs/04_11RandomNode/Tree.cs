@@ -8,6 +8,11 @@ namespace CTCILibrary._04TreesAndGraphs._04_11RandomNode
     {
         TreeNode root = null;
 
+        public TreeNode GetRootNode()
+        {
+            return root;
+        }
+
         public int Size() { return root == null ? 0 : root.Size(); }
 
         public TreeNode GetRandomNode()

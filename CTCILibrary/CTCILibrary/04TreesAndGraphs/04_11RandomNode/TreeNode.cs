@@ -6,7 +6,7 @@ namespace CTCILibrary._04TreesAndGraphs._04_11RandomNode
 {
     public class TreeNode
     {
-        private int data;
+        public int data;
         private int size = 0;
         public TreeNode Left { get; set; }
         public TreeNode Right { get; set; }
@@ -35,8 +35,7 @@ namespace CTCILibrary._04TreesAndGraphs._04_11RandomNode
             }
         }
 
-        public int Size() { return size; }
-        public int Data() { return data; }
+        public int Size() { return size; }        
 
         public void InsertInOrder(int d)
         {

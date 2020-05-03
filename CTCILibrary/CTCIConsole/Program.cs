@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary._04TreesAndGraphs._04_11RandomNode.Client client = new CTCILibrary._04TreesAndGraphs._04_11RandomNode.Client();
+            CTCILibrary._04TreesAndGraphs._04_12PathsWithSum.Client client = new CTCILibrary._04TreesAndGraphs._04_12PathsWithSum.Client();
             client.Run();
         }
     }
