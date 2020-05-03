@@ -77,6 +77,9 @@ namespace CTCILibrary._04TreesAndGraphs._04_08FirstCommonAncestor
 
             FirstCommonAncestorV1 fcaV1 = new FirstCommonAncestorV1();
             TreeNode commonAncestor = fcaV1.CommonAncestor(n06, n12);
+
+            FirstCommonAncestorV2 fcaV2 = new FirstCommonAncestorV2();
+            TreeNode commonAncestorV2 = fcaV2.CommonAncestor(n15, n06, n12);
         }
     }
 }
