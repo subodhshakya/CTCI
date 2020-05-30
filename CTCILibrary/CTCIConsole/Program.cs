@@ -10,9 +10,8 @@ namespace CTCIConsole
     class Program
     {
         static void Main(string[] args)
-        {
-            CTCILibrary._04TreesAndGraphs._04_12PathsWithSum.Client client = new CTCILibrary._04TreesAndGraphs._04_12PathsWithSum.Client();
-            client.Run();
+        {            
+            CTCILibrary._05BitManipulation._05_01Insertion.Client.Run();
         }
     }
 }
