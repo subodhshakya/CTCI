@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="05BitManipulation\05_02BinaryToString\" />
     <Folder Include="06MathAndLogicPuzzles\" />
     <Folder Include="07ObjectOrientedDesign\" />
     <Folder Include="08RecursionAndDynamicProgramming\" />

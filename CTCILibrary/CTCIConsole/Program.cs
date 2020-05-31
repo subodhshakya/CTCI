@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {            
-            CTCILibrary._05BitManipulation._05_01Insertion.Client.Run();
+            CTCILibrary._05BitManipulation._05_02BinaryToString.Client.Run();
         }
     }
 }
