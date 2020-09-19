@@ -200,6 +200,6 @@ namespace CTCILibrary.YouTubeDemos.Ch02
                 beforeEnd.Next = afterStart;
                 return beforeStart;
             }
-        }
+        }        
     }
 }
