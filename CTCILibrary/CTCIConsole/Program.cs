@@ -10,8 +10,8 @@ namespace CTCIConsole
     class Program
     {
         static void Main(string[] args)
-        {            
-            CTCILibrary._05BitManipulation._05_06Conversion.Client.Run();
+        {
+            Console.WriteLine(CTCILibrary.YouTubeDemos.LeetCode.Easy._053_Maximum_Subarray.MaxSubArraySolution.MaxSubArray(new int[] { 2, 1, -3, 4, -1, 2, 1, -5, 4 }));
         }
     }
 }
