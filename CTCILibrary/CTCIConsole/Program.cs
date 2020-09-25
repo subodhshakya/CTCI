@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CTCILibrary.YouTubeDemos.LeetCode.Easy._066_Plus_One.Solution.PlusOne(new int[] { 9}));
+            Console.WriteLine(CTCILibrary.YouTubeDemos.LeetCode.Easy._067_Add_Binary.Solution.AddBinary("1010", "1011"));
         }
     }
 }
