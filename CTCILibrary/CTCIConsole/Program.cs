@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(CTCILibrary.YouTubeDemos.LeetCode.Easy._053_Maximum_Subarray.MaxSubArraySolution.MaxSubArray(new int[] { 2, 1, -3, 4, -1, 2, 1, -5, 4 }));
+            Console.WriteLine(CTCILibrary.YouTubeDemos.LeetCode.Easy._066_Plus_One.Solution.PlusOne(new int[] { 9}));
         }
     }
 }
