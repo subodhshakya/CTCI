@@ -74,5 +74,24 @@ namespace CTCILibrary.YouTubeDemos.LeetCode.Easy._100_Same_Tree
             GetPreOrderString(n.left, sb);
             GetPreOrderString(n.right, sb);
         }
+
+        public static bool IsSameTreePreOrderRecursion(TreeNode p, TreeNode q)
+        {
+            if (p == null && q == null)
+            {
+                return true;
+            }
+
+            if (p == null || q == null)
+            {
+                return false;
+            }
+
+            if (p != null && q != null && q.val != p.val)
+            {
+                return false;
+            }
+            return IsSameTree(p.left, q.left) && IsSameTree(p.right, q.right);
+        }
     }
 }
