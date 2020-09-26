@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "/oP4yn246j8w0y++QP61MocSDCogG5ALw7VKR48W0yoh1C/mowmLORW5hzq9JnM3QlG81q+BDYEsvq1OP6dt4w==",
+  "dgSpecHash": "9lIcJfXsbo5LN745pwopY0/BJUXi2f6Fl/0+XFfPQlB1hWQBTu0LAb4fTHizR9UUkTLpyI/sNw1+HehEmmoigw==",
   "success": true,
   "projectFilePath": "C:\\Users\\subod\\source\\repos\\CTCI\\CTCILibrary\\CTCILibrary\\CTCILibrary.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\subod\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\subod\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }
