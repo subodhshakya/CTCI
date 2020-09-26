@@ -11,7 +11,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._088_Merge_Sorted_Array.Solution.Merge(new int[] { 1, 2, 3, 0, 0, 0 }, 3, new int[] { 2, 5, 6 }, 3);
+            //
         }
     }
 }
