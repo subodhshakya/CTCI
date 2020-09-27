@@ -12,10 +12,13 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._118_Pascals_Triangle.Solution.Generate(1);
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._118_Pascals_Triangle.Solution.Generate(2);
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._118_Pascals_Triangle.Solution.Generate(3);
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._118_Pascals_Triangle.Solution.Generate(5);
+            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(0);
+            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(1);
+            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(2);
+            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(3);
+            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(4);
+            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(5);
+
         }
     }
 }

@@ -5,13 +5,27 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="06MathAndLogicPuzzles\" />
-    <Folder Include="07ObjectOrientedDesign\" />
-    <Folder Include="08RecursionAndDynamicProgramming\" />
-    <Folder Include="09SystemDesignAndScalability\" />
-    <Folder Include="10SortingAndSearching\" />
-    <Folder Include="01ArraysAndStrings\" />
-    <Folder Include="02LinkedLists\" />
+    <Compile Remove="01ArraysAndStrings\**" />
+    <Compile Remove="02LinkedLists\**" />
+    <Compile Remove="06MathAndLogicPuzzles\**" />
+    <Compile Remove="07ObjectOrientedDesign\**" />
+    <Compile Remove="08RecursionAndDynamicProgramming\**" />
+    <Compile Remove="09SystemDesignAndScalability\**" />
+    <Compile Remove="10SortingAndSearching\**" />
+    <EmbeddedResource Remove="01ArraysAndStrings\**" />
+    <EmbeddedResource Remove="02LinkedLists\**" />
+    <EmbeddedResource Remove="06MathAndLogicPuzzles\**" />
+    <EmbeddedResource Remove="07ObjectOrientedDesign\**" />
+    <EmbeddedResource Remove="08RecursionAndDynamicProgramming\**" />
+    <EmbeddedResource Remove="09SystemDesignAndScalability\**" />
+    <EmbeddedResource Remove="10SortingAndSearching\**" />
+    <None Remove="01ArraysAndStrings\**" />
+    <None Remove="02LinkedLists\**" />
+    <None Remove="06MathAndLogicPuzzles\**" />
+    <None Remove="07ObjectOrientedDesign\**" />
+    <None Remove="08RecursionAndDynamicProgramming\**" />
+    <None Remove="09SystemDesignAndScalability\**" />
+    <None Remove="10SortingAndSearching\**" />
   </ItemGroup>
 
 </Project>
