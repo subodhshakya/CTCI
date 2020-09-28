@@ -12,12 +12,7 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(0);
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(1);
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(2);
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(3);
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(4);
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._119_Pascals_Triangle_II.Solution.GetRow(5);
+            CTCILibrary.YouTubeDemos.LeetCode.Easy._121_Best_Time_To_Buy_Stock.Solution.MaxProfit2(new int[] { 7, 1, 5, 3, 6, 4 });            
 
         }
     }
