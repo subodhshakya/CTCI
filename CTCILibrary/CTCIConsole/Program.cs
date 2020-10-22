@@ -12,17 +12,10 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            TreeNode t = new TreeNode(1)
-            {
-                left = new TreeNode(2)
-                {
-                    right = new TreeNode(5)
-                },
-                right = new TreeNode(3)
-            };
-            CTCILibrary.YouTubeDemos.LeetCode.Medium._006_ZigZag_Conversion.Solution c = new CTCILibrary.YouTubeDemos.LeetCode.Medium._006_ZigZag_Conversion.Solution();
-            string result = c.Convert("PAYPALISHIRING", 4);
-            
+            CTCILibrary.YouTubeDemos.LeetCode.Medium._016_3Sum_Closest.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._016_3Sum_Closest.Solution();
+            var result = sln.ThreeSumClosestTwoPointerApproach(new int[] { 0, 1, 2 }, 0);
+
+
         }
     }
 }
