@@ -20,8 +20,9 @@ namespace CTCIConsole
                 },
                 right = new TreeNode(3)
             };
-            CTCILibrary.YouTubeDemos.LeetCode.Easy._257_Binary_Tree_Paths.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Easy._257_Binary_Tree_Paths.Solution();
-            var paths = sln.BinaryTreePaths(t);
+            CTCILibrary.YouTubeDemos.LeetCode.Medium._006_ZigZag_Conversion.Solution c = new CTCILibrary.YouTubeDemos.LeetCode.Medium._006_ZigZag_Conversion.Solution();
+            string result = c.Convert("PAYPALISHIRING", 4);
+            
         }
     }
 }
