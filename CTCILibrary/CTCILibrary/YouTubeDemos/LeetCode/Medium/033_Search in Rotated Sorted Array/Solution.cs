@@ -43,7 +43,7 @@ If target is found in the array return its index, otherwise, return -1.
          */
         public int Search(int[] nums, int target)
         {
-            return pivotedBinarySearch(nums, nums.Length, target);
+            return search(nums, 0, nums.Length-1, target);
         }        
 
 
@@ -114,6 +114,61 @@ If target is found in the array return its index, otherwise, return -1.
                 return binarySearch(arr, (mid + 1), high, key);
 
             return binarySearch(arr, low, (mid - 1), key);
+        }
+
+
+
+        // Approach 2: Modified binary search that does search in single pass!!
+        // Returns index of key in arr[l..h] 
+        // if key is present, otherwise 
+        // returns -1 
+
+
+        /* Improved Solution:
+            Approach: Instead of two or more pass of binary search the result can be found in one pass of binary search. The binary search needs to be modified to perform the search. The idea is to create a recursive function that takes l and r as range in input and the key.
+
+            1) Find middle point mid = (l + h)/2
+            2) If key is present at middle point, return mid.
+            3) Else If arr[l..mid] is sorted
+            a) If key to be searched lies in range from arr[l]
+               to arr[mid], recur for arr[l..mid].
+            b) Else recur for arr[mid+1..h]
+            4) Else (arr[mid+1..h] must be sorted)
+            a) If key to be searched lies in range from arr[mid+1]
+               to arr[h], recur for arr[mid+1..h].
+            b) Else recur for arr[l..mid] 
+         * 
+         */
+        public int search(int[] arr, int l, int h,
+                          int key)
+        {
+            if (l > h)
+                return -1;
+
+            int mid = (l + h) / 2;
+
+            if (arr[mid] == key)
+                return mid;
+
+            /* If arr[l...mid] is sorted */
+            if (arr[l] <= arr[mid])
+            {
+
+                /* As this subarray is sorted, we  
+                can quickly check if key lies in  
+                half or other half */
+                if (key >= arr[l] && key <= arr[mid])
+                    return search(arr, l, mid - 1, key);
+
+                return search(arr, mid + 1, h, key);
+            }
+
+            /* If arr[l..mid] is not sorted,  
+            then arr[mid... r] must be sorted*/
+            if (key >= arr[mid] && key <= arr[h])
+                return search(arr, mid + 1, h, key);
+
+            return search(arr, l, mid - 1, key);
         }
     }
 }
