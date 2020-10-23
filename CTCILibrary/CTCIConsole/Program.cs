@@ -12,8 +12,8 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Medium._016_3Sum_Closest.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._016_3Sum_Closest.Solution();
-            var result = sln.ThreeSumClosestTwoPointerApproach(new int[] { 0, 1, 2 }, 0);
+            CTCILibrary.YouTubeDemos.LeetCode.Medium._033_Search_in_Rotated_Sorted_Array.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._033_Search_in_Rotated_Sorted_Array.Solution();
+            var result = sln.Search(new int[] { 3, 1 }, 1);
 
 
         }
