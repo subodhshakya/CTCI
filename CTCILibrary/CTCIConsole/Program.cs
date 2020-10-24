@@ -12,8 +12,8 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Medium._033_Search_in_Rotated_Sorted_Array.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._033_Search_in_Rotated_Sorted_Array.Solution();
-            var result = sln.Search(new int[] { 3, 1 }, 1);
+            CTCILibrary.YouTubeDemos.LeetCode.Medium._034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._034_Find_First_and_Last_Position_of_Element_in_Sorted_Array.Solution();
+            var result = sln.SearchRecursive(new int[] { 5,5,5 }, 5);
 
 
         }
