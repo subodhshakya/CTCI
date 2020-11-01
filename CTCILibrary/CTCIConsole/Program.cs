@@ -12,8 +12,8 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Medium._039_Combination_Sum.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._039_Combination_Sum.Solution();
-            var result = sln.CombinationSum(new int[] { 2, 3, 6, 7 }, 7);
+            CTCILibrary.YouTubeDemos.LeetCode.Mock_Interviews._2020_10_31._763._Partition_Labels.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Mock_Interviews._2020_10_31._763._Partition_Labels.Solution();
+            var result = sln.PartitionLabels("baabcbacadefegdehijhklij");
 
 
         }
