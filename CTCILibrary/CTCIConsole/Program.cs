@@ -12,9 +12,9 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Medium._127_Word_Ladder.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._127_Word_Ladder.Solution();
+            CTCILibrary.YouTubeDemos.LeetCode.Medium._215_Kth_Largest_Element_in_an_Array.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._215_Kth_Largest_Element_in_an_Array.Solution();
 
-            var result = sln.LadderLength("hit", "cog", new List<string> { "hot", "dot", "dog", "lot", "log", "cog" });
+            var result = sln.findKthLargest(new int[] { 3, 2, 3, 1, 2, 4, 5, 5, 6 }, 4);
         }
     }
 }
