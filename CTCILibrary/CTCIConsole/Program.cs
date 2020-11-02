@@ -12,9 +12,9 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Medium._215_Kth_Largest_Element_in_an_Array.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._215_Kth_Largest_Element_in_an_Array.Solution();
+            CTCILibrary.YouTubeDemos.LeetCode.Medium._056_Merge_Intervals.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._056_Merge_Intervals.Solution();
 
-            var result = sln.findKthLargest(new int[] { 3, 2, 3, 1, 2, 4, 5, 5, 6 }, 4);
+            sln.Merge(new int[][] { new int[] { 1, 4 }, new int[] { 2, 3 }});
         }
     }
 }
