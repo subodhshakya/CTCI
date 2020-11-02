@@ -12,10 +12,9 @@ namespace CTCIConsole
     {
         static void Main(string[] args)
         {
-            CTCILibrary.YouTubeDemos.LeetCode.Mock_Interviews._2020_10_31._763._Partition_Labels.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Mock_Interviews._2020_10_31._763._Partition_Labels.Solution();
-            var result = sln.PartitionLabels("baabcbacadefegdehijhklij");
+            CTCILibrary.YouTubeDemos.LeetCode.Medium._127_Word_Ladder.Solution sln = new CTCILibrary.YouTubeDemos.LeetCode.Medium._127_Word_Ladder.Solution();
 
-
+            var result = sln.LadderLength("hit", "cog", new List<string> { "hot", "dot", "dog", "lot", "log", "cog" });
         }
     }
 }
